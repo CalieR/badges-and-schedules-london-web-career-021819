@@ -18,6 +18,8 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
+  # first print all the statements created by #badge_maker
+  # then print all the statements created by #assign_rooms
   batch_badge_creator(attendees).each { |a| puts a }
   assign_rooms(attendees).each { |b| puts b } # iterating over the return value of #assign_rooms, which is an array
 end
