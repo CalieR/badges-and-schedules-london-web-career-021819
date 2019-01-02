@@ -4,5 +4,5 @@ end
 
 def batch_badge_creator(array)
   # return new array with badge messages
-  # array.collect { |x| badge_maker(x) }
+   array.collect { |x| badge_maker(x) }
 end
