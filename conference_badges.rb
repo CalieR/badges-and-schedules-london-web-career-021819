@@ -19,5 +19,5 @@ end
 
 def printer(attendees)
   batch_badge_creator(attendees).each { |a| puts a }
-  assign_rooms(attendees).each { |b| puts b }
+  assign_rooms(attendees).each { |b| puts b } # iterating over the return value of #assign_rooms, which is an array
 end
