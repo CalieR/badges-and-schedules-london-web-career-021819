@@ -12,5 +12,5 @@ def assign_rooms(speakers)
   # iterate over array, create message with index+1 as room number
   room_list = []
   speakers.each_with_index { |i, index| room_list << "Hello, #{i}! You'll be assigned to room #{index + 1}!"}
-  return room_list
+  room_list
 end
